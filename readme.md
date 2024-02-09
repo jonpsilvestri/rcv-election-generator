@@ -1,12 +1,6 @@
-# Assignment #1: Generating Random Elections [DRAFT]
+# Generating random ranked choice voting (RCV) election data
 
-## Due: 3:00pm on Friday, 2024-01-26
-
-## Assignment Overview
-
-In this assignment, you will write a Python program that generates random Ranked Choice Voting (RCV) elections.
-
-The program will take many command-line arguments:
+The program can take the following commandline arguments
 
 - `--num-voters`: the number of voters in the election (default: 10)
 - `--num-candidates`: the number of candidates in the election (default: 3)
@@ -18,7 +12,7 @@ The program will take many command-line arguments:
 
 ## Output Format
 
-The output file will be a JSON file with the following format:
+If an output-file is specified, the output file will be a JSON file with the following format:
 
 ```json
 {
@@ -54,27 +48,6 @@ The output file will be a JSON file with the following format:
 ```
 
 The `ballots` array contains the ballots in the election. Each ballot has a `ranking` array, which contains the ranking of the candidates. The `count` field indicates how many ballots have that ranking.
-
-## Requirements
-
-Your program must meet the following requirements:
-
-- The "num_elections" field must be equal to the number of elections in the "elections" array.
-- The "rankings" within an election must be unique.
-- The candidates must be numbered from 0 to num_candidates - 1.
-
-## Python Packages
-
-You will likely want to use the following Python packages:
-
-* [argparse](https://docs.python.org/3/library/argparse.html) for parsing command-line arguments
-* [random](https://docs.python.org/3/library/random.html) for generating random subsets
-* [json](https://docs.python.org/3/library/json.html) for writing JSON files
-* [itertools](https://docs.python.org/3/library/itertools.html) for generating permutations
-
-## Hints
-
-Think before you start to type.  Think a lot before your start to type.  Think even more before you start to type.  Then, start to type.
 
 ## Code sharing
 
