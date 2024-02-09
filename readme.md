@@ -48,9 +48,3 @@ If an output-file is specified, the output file will be a JSON file with the fol
 ```
 
 The `ballots` array contains the ballots in the election. Each ballot has a `ranking` array, which contains the ranking of the candidates. The `count` field indicates how many ballots have that ranking.
-
-## Code sharing
-
-While you may not share code with other students, you may discuss the assignment with other students.
-
-You may also share code that is meant to test your program. For example, you may share code that reads the JSON file and verifies that the election is valid given the parameters.
