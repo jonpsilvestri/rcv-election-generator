@@ -1,6 +1,6 @@
 # Generating random ranked choice voting (RCV) election data
 
-The program can take the following commandline arguments
+The program can take the following commandline arguments.
 
 - `--num-voters`: the number of voters in the election (default: 10)
 - `--num-candidates`: the number of candidates in the election (default: 3)
