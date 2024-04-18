@@ -111,7 +111,7 @@ if __name__ == '__main__':
     
     if output_file == None:
         print(json.dumps(output, indent=2))
-        exit(-1)
+        exit(0)
 
     with open(output_file, 'w') as json_file:
         json.dump(output, json_file, indent=2)
